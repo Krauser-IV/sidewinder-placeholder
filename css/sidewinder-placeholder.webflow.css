@@ -206,19 +206,20 @@ body {
 
 .centered-heading.margin-bottom-32px {
   color: #fff;
+  text-align: center;
   overflow-wrap: normal;
   background-color: rgba(255, 255, 255, 0);
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 51px 0 auto;
+  padding-left: 0;
   font-family: Poppins, sans-serif;
   font-size: 90px;
   font-weight: 400;
   line-height: 80px;
   position: absolute;
   top: 0%;
-  bottom: 0%;
-  left: -5%;
-  right: 0%;
+  bottom: auto;
+  left: auto;
+  right: auto;
 }
 
 .hero-wrapper {
@@ -339,7 +340,7 @@ body {
 .section-2 {
   margin: -3.8rem 20px 0;
   padding-bottom: 0;
-  top: 63.6rem;
+  top: 58.3rem;
 }
 
 .image-4 {
@@ -406,7 +407,7 @@ body {
 
 .div-block-2 {
   float: none;
-  text-align: center;
+  text-align: right;
   overflow-wrap: break-word;
   border-radius: 0;
   flex-flow: wrap;
@@ -428,6 +429,41 @@ body {
   left: 0%;
   right: 0%;
   overflow: hidden;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.heading, .text-block-5, .heading-2, .field-label {
+  font-family: Compagnon, sans-serif;
+  font-weight: 500;
+}
+
+.submit-button {
+  -webkit-text-stroke-color: #000;
+  background-color: #98db93;
+  border-radius: 8px;
+  font-family: Compagnon, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -473,7 +509,7 @@ body {
     max-width: 70%;
     text-align: center;
     overflow-wrap: normal;
-    margin-left: 107px;
+    margin-left: -21px;
     font-size: 70px;
   }
 
@@ -611,7 +647,7 @@ body {
   }
 
   .centered-heading.margin-bottom-32px {
-    margin-left: 62px;
+    margin-left: -31px;
     padding-left: 25px;
     font-size: 50px;
   }
@@ -671,7 +707,7 @@ body {
     direction: ltr;
     text-indent: -18px;
     overflow-wrap: normal;
-    margin-left: auto;
+    margin-left: 61px;
     margin-right: auto;
     padding-left: 0;
     font-size: 35px;
@@ -698,6 +734,9 @@ body {
     margin-left: 43px;
     padding-left: 0;
     font-size: 30px;
+    position: relative;
+    left: 52px;
+    overflow: visible;
   }
 
   .monotype {
@@ -732,6 +771,7 @@ body {
     padding-top: 0;
     padding-left: 114px;
     position: relative;
+    left: 58px;
   }
 
   .text-block-3 {
